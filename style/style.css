@@ -305,11 +305,13 @@ nav {
 .font {
     border: 1px solid;
 }
+
 /*recent news*/
-.news-father{
+.news-father {
     margin: 80px 160px 32px 160px;
 }
-.news-reports{
+
+.news-reports {
     display: flex;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 24px;
@@ -318,23 +320,27 @@ nav {
     margin: 24px 0px;
     gap: 24px;
 }
-.satelite-img{
+
+.satelite-img {
     border-radius: 24px;
 }
-.news-titles{
+
+.news-titles {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 32px;
     font-weight: 700;
     margin: 12px 0px;
 }
-.news-description{
+
+.news-description {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
 }
-.btn-4{
+
+.btn-4 {
     border-radius: 8px;
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
@@ -344,7 +350,8 @@ nav {
     padding: 13px 26px 13px 26px;
     border: none;
 }
-.news-reports-2{
+
+.news-reports-2 {
     display: flex;
     flex-direction: row-reverse;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -353,4 +360,82 @@ nav {
     padding: 48px;
     margin: 24px 0px;
     gap: 24px;
+}
+
+.donate-father {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32;
+    padding: 0px;
+
+}
+
+.donate-title {
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-para {
+    margin: 12px;
+    padding: 24px;
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-5 {
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 45px;
+    gap: 50px;
+    margin: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.donate-button {
+    margin: 0px 40px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.donate-input{
+    margin: 32px 0px;
+    display: flex;
+    justify-content: center;
+}
+.donate-i{
+    background: rgb(255, 255, 255);
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-6{
+    
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 26px 13px 26px;
+    border: none;
+     margin: 8px;
+}
+.donation .btn-6{
+    display: flex;
+    justify-self: center;
 }
