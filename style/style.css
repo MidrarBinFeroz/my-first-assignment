@@ -14,9 +14,10 @@ nav {
 }
 
 .fira-sans-regular {
-    font-family: "Fira Sans", serif;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
     font-weight: 700;
-    font-style: normal;
 }
 
 .primary-btn-1 {
@@ -401,30 +402,34 @@ nav {
     border-radius: 16px;
     background: rgb(255, 255, 255);
 }
+
 .donate-button {
     margin: 0px 40px;
     display: flex;
     gap: 24px;
     justify-content: space-around;
 }
-.donate-input{
+
+.donate-input {
     margin: 32px 0px;
     display: flex;
     justify-content: center;
 }
-.donate-i{
+
+.donate-i {
     background: rgb(255, 255, 255);
     width: 1032px;
     height: 64px;
     text-align: center;
-    border: none;
+    border: 1px solid rgba(14, 14, 14, 0.15);
     color: rgba(14, 14, 14, 0.3);
     font-family: Fira Sans;
     font-size: 20px;
     font-weight: 400;
 }
-.btn-6{
-    
+
+.btn-6 {
+
     border-radius: 8px;
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
@@ -433,9 +438,74 @@ nav {
     font-weight: 600;
     padding: 13px 26px 13px 26px;
     border: none;
-     margin: 8px;
+    margin: 8px;
 }
-.donation .btn-6{
+
+.donation .btn-6 {
     display: flex;
     justify-self: center;
+}
+
+.newsletter-section {
+    text-align: center;
+}
+
+.footer-main {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.newsletter-section {
+    background-color: #c8e6c9;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.newsletter-section h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.newsletter-section p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input-container input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #2e7d32;
+}
+
+button:hover {
+    background-color: rgb(198, 228, 214);
+    color: white;
+    border: 2px solid rgb(0, 106, 80);
 }
